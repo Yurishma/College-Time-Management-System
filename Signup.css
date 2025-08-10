@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #f3f3f3;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    select, input[type="text"], input[type="password"], input[type="tel"] {
+      width: 95%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+    .checkbox-group {
+      margin-top: 10px;
+    }
+    .checkbox-group label {
+      display: block;
+    }
+    .hidden {
+      display: none;
+    }
+    button[type="submit"] {
+  margin-top: 20px; /* Already good */
+  margin-bottom: 10px; /* Add this for spacing below */
+}

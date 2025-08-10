@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.availability-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.availability-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.availability-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+.availability-form select,
+.availability-form input[type="time"],
+.availability-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.availability-form .checkbox-group {
+    margin-bottom: 18px;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.availability-form input[type="submit"] {
+    background-color: #00a1fff5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.availability-form input[type="submit"]:hover {
+    background-color: #00a1fff5;
+
+}
+.message-box {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 15px auto;
+    font-weight: bold;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: #0056b3;
+}
